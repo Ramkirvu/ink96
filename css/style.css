@@ -59,14 +59,18 @@ footer.page-footer {
 /*reveal*/
 .sr .fooReveal { visibility: hidden; }
 
-/*basis*/
-html, body, header, footer {
-  font-family: "Roboto", sans-serif;
-  
-}
 
 
 /*custom*/
 .carousel-slider {
   height: 40;
+}
+
+/*basis*/
+
+.height6 {
+  height: 40em;
+}
+.height3 {
+  height: 20em;
 }
