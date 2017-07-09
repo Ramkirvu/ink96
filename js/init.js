@@ -1,6 +1,6 @@
 
 
-
+//reveal
 window.sr = ScrollReveal();
 sr.reveal('.row');
 sr.reveal('.col');
@@ -15,3 +15,6 @@ sr.reveal('.col');
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+//slider
+$('.carousel.carousel-slider').carousel({fullWidth: true});

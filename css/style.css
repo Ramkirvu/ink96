@@ -55,4 +55,18 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/*reveal*/
 .sr .fooReveal { visibility: hidden; }
+
+/*basis*/
+html, body, header, footer {
+  font-family: "Roboto", sans-serif;
+  
+}
+
+
+/*custom*/
+.carousel-slider {
+  height: 40;
+}
