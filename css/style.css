@@ -62,15 +62,59 @@ footer.page-footer {
 
 
 /*custom*/
-.carousel-slider {
-  height: 40;
+
+/*slider*/
+.car-bg-1 {
+  background: url("../background1.jpg");
 }
+.car-bg-2 {
+  background: url("../background2.jpg");
+}
+.car-bg-3 {
+  background: url("../background3.jpg");
+}
+
 
 /*basis*/
 
-.height6 {
+/* height 100 300 400 600 */
+.height-xs {
+ height: 6.667em;
+}
+.height-s {
+  height: 20em;
+}
+.height-m {
+  height: 26.667em;
+}
+.height-xl {
   height: 40em;
 }
-.height3 {
-  height: 20em;
+
+/* position */
+
+.flex {
+  display: flex;
+}
+.vertical {
+  flex-direction: column;
+}
+.mar-auto {
+  margin: auto;
+}
+
+/* pic's */
+
+.about-1 {
+  background-image: url("../pics/about1.jpg");
+}
+.about-2 {
+  background: url("../pics/about2.jpg");
+}
+.about-3 {
+  background: url("../pics/about3.jpg");
+}
+
+.bg {
+  background-size: cover;
 }

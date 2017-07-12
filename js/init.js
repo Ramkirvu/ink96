@@ -4,7 +4,9 @@
 window.sr = ScrollReveal();
 sr.reveal('.row');
 sr.reveal('.col');
-
+if (sr.isSupported()) {
+    document.documentElement.classList.add('sr');
+}
 
 
 (function($){
@@ -12,9 +14,8 @@ sr.reveal('.col');
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-//slider
-$('.carousel.carousel-slider').carousel({fullWidth: true});
+
