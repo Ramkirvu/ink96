@@ -2,8 +2,10 @@
 
 //reveal
 window.sr = ScrollReveal();
-sr.reveal('.row');
-sr.reveal('.col');
+// sr.reveal('.row', { duration: 2000 });
+sr.reveal('.col', { duration: 1800 });
+sr.reveal('.col-d', { duration: 2000, delay: 400 });
+
 if (sr.isSupported()) {
     document.documentElement.classList.add('sr');
 }
