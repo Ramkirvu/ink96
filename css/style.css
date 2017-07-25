@@ -342,12 +342,14 @@ footer.page-footer {
   height: 20em;
 }
 .height-m {
-  height: 26.667em !important;
+  height: 26.667em;
 }
 .height-xl {
   height: 40em;
 }
-
+.carousel {
+  width: 100%;
+}
 /* position */
 
 .flex {
