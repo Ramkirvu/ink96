@@ -7,14 +7,16 @@ sr.reveal('.rev', {
     origin: 'top',
     distance: '50px',
     reset: true,
-    viewFactor: 0.5
+    viewFactor: 0.5,
+    // mobile: false
 });
 sr.reveal('.rev-bot', {
     duration: 1800,
     origin: 'bottom',
     distance: '50px',
     reset: true,
-    viewFactor: 0.5
+    viewFactor: 0.5,
+    // mobile: false
 });
 sr.reveal('.rev-d', {
     duration: 2000,
@@ -23,7 +25,8 @@ sr.reveal('.rev-d', {
     distance: '60px',
     scale: 0.1,
     reset: true,
-    viewFactor: 0.5
+    viewFactor: 0.5,
+    // mobile: false
 });
 // sr.reveal('.carousel', {
 //     duration: 1200,
@@ -43,7 +46,6 @@ if (sr.isSupported()) {
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
-    $('.carousel').carousel('next', 1);
   });
 })(jQuery);
 
