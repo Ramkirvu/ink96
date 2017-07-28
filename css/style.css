@@ -67,10 +67,14 @@ footer.page-footer {
   margin: 5px;
   box-sizing: content-box;
 }
-.icon-link.round {
+.icon-link.round,
+.btn-large,
+.carousel {
   border-radius: 50%;
 }
-.icon-link.round-corner {
+.icon-link.round-corner,
+.btn-large,
+.carousel {
   border-radius: 5px;
 }
 .icon-link:hover .fa {
