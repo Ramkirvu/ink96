@@ -8,7 +8,7 @@ sr.reveal('.rev', {
     distance: '50px',
     reset: true,
     viewFactor: 0.5,
-    // mobile: false
+    mobile: false
 });
 sr.reveal('.rev-bot', {
     duration: 1800,
@@ -16,7 +16,7 @@ sr.reveal('.rev-bot', {
     distance: '50px',
     reset: true,
     viewFactor: 0.5,
-    // mobile: false
+    mobile: false
 });
 sr.reveal('.rev-d', {
     duration: 2000,
@@ -26,16 +26,8 @@ sr.reveal('.rev-d', {
     scale: 0.1,
     reset: true,
     viewFactor: 0.5,
-    // mobile: false
+    mobile: false
 });
-// sr.reveal('.carousel', {
-//     duration: 1200,
-//     origin: 'bottom',
-//     distance: '50px',
-//     scale: 0.1,
-//     reset: true,
-//     viewFactor: 0.5,
-// });
 
 if (sr.isSupported()) {
     document.documentElement.classList.add('sr');

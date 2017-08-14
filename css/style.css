@@ -135,10 +135,6 @@ h5.bold {
 .height-xl {
   height: 40em;
 }
-.carousel {
-  width: 100% !important;
-  height: 100% !important;
-}
 
 /* position */
 
@@ -150,6 +146,9 @@ h5.bold {
 }
 .mar-auto {
   margin: auto;
+}
+.mar-none {
+  margin: 0px;
 }
 
 /* pic's */
@@ -165,42 +164,92 @@ h5.bold {
 }
 
 .car-1 {
-   background: url("../pics/about1.jpg");
+   background: url("../pics/car1.jpg");
 }
-/*.car-2 {*/
-   /*background: url("");*/
-/*}*/
-/*.car-3 {*/
-   /*background: url("");*/
-/*}*/
-/*.car-4 {*/
-   /*background: url("");*/
-/*}*/
-/*.car-5 {*/
-   /*background: url("");*/
-/*}*/
-/*.car-6 {*/
-   /*background: url("");*/
-/*}*/
+.car-2 {
+   background: url("../pics/car2.jpg");
+}
+.car-3 {
+   background: url("../pics/car3.jpg");
+}
+.car-4 {
+   background: url("../pics/car4.jpg");
+}
+.car-5 {
+   background: url("../pics/car5.jpg");
+}
+.car-6 {
+   background: url("../pics/car6.jpg");
+}
+.car-7 {
+  background: url("../pics/car7.jpg");
+}
+.car-8 {
+  background: url("../pics/car8.jpg");
+}
 
-.bg {
+.wall {
+  background: url("../pics/wall.jpg");
+}
+div.wall.wrapper {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+
+.bg, .gal {
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
+.rad, .gal {
+  border-radius: 5px;
+}
+.logo {
+  background: url("../pics/logo.png") no-repeat;
+  background-size: contain;
+}
 
-/*@media only screen and (max-width: 320px) {*/
-  /*h4, h5 {*/
-    /*font-size: small;*/
-  /*}*/
-  /*p {*/
-    /*font-size: x-small;*/
-    /*line-height: 1.2rem;*/
-  /*}*/
-  /*.about-1,*/
-  /*.about-2,*/
-  /*.about-3 {*/
-    /*height: 80% !important;*/
-  /*}*/
-/*}*/
+/* media query gallery */
+
+@media only screen and (min-width: 1500px) and (max-width: 1800px) {
+   .gal {
+     height: 90%;
+   }
+}
+@media only screen and (min-width: 1350px) and (max-width: 1500px) {
+  .gal {
+    height: 80%;
+  }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1350px) {
+  .gal {
+    height: 75%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1150px) {
+  .gal {
+    height: 70%;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  .gal {
+    height: 65%;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+  .gal {
+    height: 60%;
+  }
+}
+@media only screen and (min-width: 660px) and (max-width: 750px) {
+  .gal {
+    height: 55%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 660px) {
+  .gal {
+    height: 50%;
+  }
+}
