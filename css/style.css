@@ -96,12 +96,14 @@ footer.page-footer {
 .icon-link.fill.social {
   background-color: #f44336;
 }
+.btn-large:hover,
 .icon-link.fill.social:hover {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 .icon-link:hover.social {
   border: 2px solid #f44336;
 }
+.btn-large:hover,
 .icon-link:hover .fa-vk,
 .icon-link:hover .fa-instagram,
 .icon-link:hover .fa-twitter,
@@ -253,3 +255,9 @@ div.wall.wrapper {
     height: 50%;
   }
 }
+/*@media only screen and (min-width: 300px) and (max-width: 601px) {*/
+  /*.gal {*/
+    /*margin-bottom: 10px;*/
+    /*margin-top: 10px;*/
+  /*}*/
+/*}*/

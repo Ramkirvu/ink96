@@ -18,6 +18,14 @@ sr.reveal('.rev-bot', {
     viewFactor: 0.5,
     mobile: false
 });
+sr.reveal('.rev-l', {
+    duration: 1800,
+    origin: 'left',
+    distance: '50px',
+    reset: true,
+    viewFactor: 0.7,
+    mobile: false
+});
 sr.reveal('.rev-d', {
     duration: 2000,
     delay: 400,
