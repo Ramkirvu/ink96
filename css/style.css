@@ -9,10 +9,6 @@ p {
   line-height: 2rem;
 }
 
-/*.button-collapse {*/
-  /*color: #26a69a;*/
-/*}*/
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -125,13 +121,17 @@ h5.bold {
 }
 
 /* height 100 300 400 600 */
+
 .height-xs {
  height: 6.667em;
 }
 .height-s {
-  height: 20em;
+  height: 14em;
 }
 .height-m {
+  height: 20em;
+}
+.height-l {
   height: 26.667em;
 }
 .height-xl {
@@ -165,39 +165,47 @@ h5.bold {
   background: url("../pics/about3.jpg");
 }
 
-.car-1 {
-   background: url("../pics/car1.jpg");
-}
-.car-2 {
-   background: url("../pics/car2.jpg");
-}
-.car-3 {
-   background: url("../pics/car3.jpg");
-}
-.car-4 {
-   background: url("../pics/car4.jpg");
-}
-.car-5 {
-   background: url("../pics/car5.jpg");
-}
-.car-6 {
-   background: url("../pics/car6.jpg");
-}
-.car-7 {
-  background: url("../pics/car7.jpg");
-}
-.car-8 {
-  background: url("../pics/car8.jpg");
-}
+/*.car-1 {*/
+   /*background: url("../pics/car1.jpg");*/
+/*}*/
+/*.car-2 {*/
+   /*background: url("../pics/car2.jpg");*/
+/*}*/
+/*.car-3 {*/
+   /*background: url("../pics/car3.jpg");*/
+/*}*/
+/*.car-4 {*/
+   /*background: url("../pics/car4.jpg");*/
+/*}*/
+/*.car-5 {*/
+   /*background: url("../pics/car5.jpg");*/
+/*}*/
+/*.car-6 {*/
+   /*background: url("../pics/car6.jpg");*/
+/*}*/
+/*.car-7 {*/
+  /*background: url("../pics/car7.jpg");*/
+/*}*/
+/*.car-8 {*/
+  /*background: url("../pics/car8.jpg");*/
+/*}*/
 
 .wall {
   background: url("../pics/wall.jpg");
 }
+
+/*borders 'n' sizes*/
+
 div.wall.wrapper {
   border-bottom: 2px solid black;
   border-top: 2px solid black;
 }
 
+.gal {
+  /*border-left: 1px solid black;*/
+  /*border-right: 1px solid black;*/
+  border: 2px solid black;
+}
 
 .bg, .gal {
   height: 100%;
@@ -205,9 +213,11 @@ div.wall.wrapper {
   background-size: cover;
   background-position: center;
 }
+
 .rad, .gal {
   border-radius: 5px;
 }
+
 .logo {
   background: url("../pics/logo.png") no-repeat;
   background-size: contain;

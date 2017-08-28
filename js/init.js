@@ -41,12 +41,25 @@ if (sr.isSupported()) {
     document.documentElement.classList.add('sr');
 }
 
+
+jQuery.noConflict();
+
 (function($){
-  $(function(){
+  $(document).ready(function(){
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+    $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.materialboxed').materialbox();
+     //отдаю картинку из карусел в div
+    $('.gal').click(function(){
+       var backG = $(this).css("background-image");
+       $('#banner').css({backgroundImage: backG});
+
+    });
+
   });
 })(jQuery);
+
 
 
