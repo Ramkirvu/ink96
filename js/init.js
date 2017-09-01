@@ -50,7 +50,6 @@ jQuery.noConflict();
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.carousel.carousel-slider').carousel({fullWidth: true});
-    $('.materialboxed').materialbox();
      //отдаю картинку из карусел в div
     $('.gal').click(function(){
        var backG = $(this).css("background-image");
