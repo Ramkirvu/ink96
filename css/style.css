@@ -1,14 +1,3 @@
-
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -134,6 +123,9 @@ h5.bold {
 .height-l {
   height: 26.667em;
 }
+.height-gal {
+  height: 38em;
+}
 .height-xl {
   height: 40em;
 }
@@ -150,7 +142,10 @@ h5.bold {
   margin: auto;
 }
 .mar-none {
-  margin: 0px;
+  margin: 0;
+}
+.mar-bot {
+  margin-bottom: 2em;
 }
 
 /* pic's */
@@ -165,45 +160,55 @@ h5.bold {
   background: url("../pics/about3.jpg");
 }
 
-/*.car-1 {*/
-   /*background: url("../pics/car1.jpg");*/
-/*}*/
-/*.car-2 {*/
-   /*background: url("../pics/car2.jpg");*/
-/*}*/
-/*.car-3 {*/
-   /*background: url("../pics/car3.jpg");*/
-/*}*/
-/*.car-4 {*/
-   /*background: url("../pics/car4.jpg");*/
-/*}*/
-/*.car-5 {*/
-   /*background: url("../pics/car5.jpg");*/
-/*}*/
-/*.car-6 {*/
-   /*background: url("../pics/car6.jpg");*/
-/*}*/
-/*.car-7 {*/
-  /*background: url("../pics/car7.jpg");*/
-/*}*/
-/*.car-8 {*/
-  /*background: url("../pics/car8.jpg");*/
-/*}*/
-
-.wall {
-  background: url("../pics/wall.jpg");
+.car-1 {
+   background: url("../pics/car1.jpg") no-repeat;
 }
-
+.car-2 {
+   background: url("../pics/car2.jpg") no-repeat;
+}
+.car-3 {
+   background: url("../pics/car3.jpg") no-repeat;
+}
+.car-4 {
+   background: url("../pics/car4.jpg") no-repeat;
+}
+.car-5 {
+   background: url("../pics/car5.jpg") no-repeat;
+}
+.car-6 {
+   background: url("../pics/car6.jpg") no-repeat;
+}
+.car-7 {
+  background: url("../pics/car7.jpg") no-repeat;
+}
+.car-8 {
+  background: url("../pics/car8.jpg") no-repeat;
+}
+.car-9 {
+  background: url("../pics/car9.jpg") no-repeat;
+}
+.car-10 {
+  background: url("../pics/car10.jpg") no-repeat;
+}
+.car-11 {
+  background: url("../pics/car11.jpg") no-repeat;
+}
+.car-12 {
+  background: url("../pics/car12.jpg") no-repeat;
+}
+.car-13 {
+  background: url("../pics/car13.jpg") no-repeat;
+}
+.wall {
+  background: url("../pics/wall.jpg") no-repeat;
+}
+.contain {
+  background-size: cover;
+}
 /*borders 'n' sizes*/
 
-div.wall.wrapper {
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-}
 
 .gal {
-  /*border-left: 1px solid black;*/
-  /*border-right: 1px solid black;*/
   border: 2px solid black;
 }
 
@@ -265,9 +270,3 @@ div.wall.wrapper {
     height: 50%;
   }
 }
-/*@media only screen and (min-width: 300px) and (max-width: 601px) {*/
-  /*.gal {*/
-    /*margin-bottom: 10px;*/
-    /*margin-top: 10px;*/
-  /*}*/
-/*}*/
