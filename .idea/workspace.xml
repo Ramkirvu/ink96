@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="864760f7-03c4-4f98-868c-46cb7e53e367" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pics/car11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/dist/scrollreveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scrollreveal-master/dist/scrollreveal.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/about1.jpg" afterPath="$PROJECT_DIR$/pics/about1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/about2.jpg" afterPath="$PROJECT_DIR$/pics/about2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/about3.jpg" afterPath="$PROJECT_DIR$/pics/about3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/back1.jpg" afterPath="$PROJECT_DIR$/pics/back1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/back2.jpg" afterPath="$PROJECT_DIR$/pics/back2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/back3.jpg" afterPath="$PROJECT_DIR$/pics/back3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car1.jpg" afterPath="$PROJECT_DIR$/pics/car1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car10.jpg" afterPath="$PROJECT_DIR$/pics/car10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car12.jpg" afterPath="$PROJECT_DIR$/pics/car12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car13.jpg" afterPath="$PROJECT_DIR$/pics/car13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car2.jpg" afterPath="$PROJECT_DIR$/pics/car2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car3.jpg" afterPath="$PROJECT_DIR$/pics/car3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car4.jpg" afterPath="$PROJECT_DIR$/pics/car4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car5.jpg" afterPath="$PROJECT_DIR$/pics/car5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car6.jpg" afterPath="$PROJECT_DIR$/pics/car6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car7.jpg" afterPath="$PROJECT_DIR$/pics/car7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car8.jpg" afterPath="$PROJECT_DIR$/pics/car8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/car9.jpg" afterPath="$PROJECT_DIR$/pics/car9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/wall.jpg" afterPath="$PROJECT_DIR$/pics/wall.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/materialize.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,14 +22,14 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.39751098">
+    <splitter split-orientation="horizontal" split-proportion="0.7203514">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="10" column="104" lean-forward="true" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
+                <state relative-caret-position="2940">
+                  <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -80,7 +52,7 @@
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/materialize.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="427">
+                <state relative-caret-position="487">
                   <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
                   <folding />
                 </state>
@@ -150,9 +122,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/materialize.js" />
         <option value="$PROJECT_DIR$/js/init.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/materialize.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -352,12 +324,12 @@
       <workItem from="1504276943865" duration="376000" />
       <workItem from="1504618276241" duration="6627000" />
       <workItem from="1505134235635" duration="483000" />
-      <workItem from="1505135324267" duration="3298000" />
+      <workItem from="1505135324267" duration="3409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77847000" />
+    <option name="totallyTimeSpent" value="77958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -770,18 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-980">
           <caret line="7681" column="33" lean-forward="false" selection-start-line="7681" selection-start-column="20" selection-end-line="7681" selection-end-column="33" />
-          <folding>
-            <marker date="1503925796000" expanded="true" signature="170067:170074" ph="..." />
-            <marker date="1503925796000" expanded="true" signature="244849:244878" ph="..." />
-            <marker date="1503925796000" expanded="true" signature="245139:245149" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="104" lean-forward="true" selection-start-line="10" selection-start-column="104" selection-end-line="10" selection-end-column="104" />
           <folding />
         </state>
       </provider>
@@ -796,8 +756,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="487">
           <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
           <folding />
         </state>
       </provider>
