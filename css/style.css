@@ -79,14 +79,14 @@ footer.page-footer {
   background-color: #fff;
 }
 .icon-link.fill.social {
-  background-color: #f44336;
+  background-color: red;
 }
 .btn-large:hover,
 .icon-link.fill.social:hover {
   background-color: #fff !important;
 }
 .icon-link:hover.social {
-  border: 2px solid #f44336;
+  border: 2px solid red;
 }
 .btn-large:hover,
 .icon-link:hover .fa-vk,
@@ -94,7 +94,7 @@ footer.page-footer {
 .icon-link:hover .fa-twitter,
 .icon-link:hover .fa-google-plus,
 .icon-link:hover .fa-youtube {
-  color: #f44336;
+  color: red;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
@@ -203,23 +203,19 @@ h5.bold {
   background: url("../pics/wall.jpg") no-repeat;
 }
 .contain {
+  background-position: center;
   background-size: cover;
 }
 /*borders 'n' sizes*/
 
-
-.gal {
-  border: 2px solid black;
-}
-
-.bg, .gal {
+.bg {
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
 }
 
-.rad, .gal {
+.rad {
   border-radius: 5px;
 }
 
@@ -228,45 +224,3 @@ h5.bold {
   background-size: contain;
 }
 
-/* media query gallery */
-
-@media only screen and (min-width: 1500px) and (max-width: 1800px) {
-   .gal {
-     height: 90%;
-   }
-}
-@media only screen and (min-width: 1350px) and (max-width: 1500px) {
-  .gal {
-    height: 80%;
-  }
-}
-@media only screen and (min-width: 1150px) and (max-width: 1350px) {
-  .gal {
-    height: 75%;
-  }
-}
-@media only screen and (min-width: 1024px) and (max-width: 1150px) {
-  .gal {
-    height: 70%;
-  }
-}
-@media only screen and (min-width: 900px) and (max-width: 1024px) {
-  .gal {
-    height: 65%;
-  }
-}
-@media only screen and (min-width: 750px) and (max-width: 900px) {
-  .gal {
-    height: 60%;
-  }
-}
-@media only screen and (min-width: 660px) and (max-width: 750px) {
-  .gal {
-    height: 55%;
-  }
-}
-@media only screen and (min-width: 601px) and (max-width: 660px) {
-  .gal {
-    height: 50%;
-  }
-}

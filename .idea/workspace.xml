@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="864760f7-03c4-4f98-868c-46cb7e53e367" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/materialize.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/about3.jpg" afterPath="$PROJECT_DIR$/pics/about3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pics/back3.jpg" afterPath="$PROJECT_DIR$/pics/back3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,14 +26,14 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7203514">
+    <splitter split-orientation="horizontal" split-proportion="0.60102487">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2940">
-                  <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+                <state relative-caret-position="330">
+                  <caret line="62" column="271" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="271" />
                   <folding />
                 </state>
               </provider>
@@ -42,8 +46,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="520">
-                  <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
+                <state relative-caret-position="1230">
+                  <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -52,8 +56,8 @@
           <file leaf-file-name="materialize.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/materialize.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="487">
-                  <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+                <state relative-caret-position="90">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -82,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>heigh</find>
       <find>.page-foo</find>
       <find>contact</find>
       <find>tw</find>
@@ -112,6 +115,7 @@
       <find>re</find>
       <find>red-text</find>
       <find>red</find>
+      <find>.ga</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -324,12 +328,15 @@
       <workItem from="1504276943865" duration="376000" />
       <workItem from="1504618276241" duration="6627000" />
       <workItem from="1505134235635" duration="483000" />
-      <workItem from="1505135324267" duration="3409000" />
+      <workItem from="1505135324267" duration="5001000" />
+      <workItem from="1505153381373" duration="646000" />
+      <workItem from="1507014573141" duration="959000" />
+      <workItem from="1507382478941" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77958000" />
+    <option name="totallyTimeSpent" value="81465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -730,6 +737,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/materialize.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -738,34 +754,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/materialize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-980">
-          <caret line="7681" column="33" lean-forward="false" selection-start-line="7681" selection-start-column="20" selection-end-line="7681" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="272" column="0" lean-forward="false" selection-start-line="272" selection-start-column="0" selection-end-line="272" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="187" column="33" lean-forward="false" selection-start-line="187" selection-start-column="33" selection-end-line="187" selection-end-column="33" />
+        <state relative-caret-position="330">
+          <caret line="62" column="271" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="271" />
           <folding />
         </state>
       </provider>
