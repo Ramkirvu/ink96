@@ -147,6 +147,12 @@ h5.bold {
 .mar-bot {
   margin-bottom: 2em;
 }
+.mar-botx2 {
+  margin-bottom: 4em;
+}
+.mar-top {
+  margin-top: 23.688em;
+}
 
 /* pic's */
 
@@ -158,6 +164,12 @@ h5.bold {
 }
 .about-3 {
   background: url("../pics/about3.jpg");
+}
+.about-4 {
+  background: url("../pics/about4.jpg");
+}
+.about-5 {
+  background: url("../pics/about5.jpg");
 }
 
 .car-1 {
@@ -190,21 +202,21 @@ h5.bold {
 .car-10 {
   background: url("../pics/car10.jpg") no-repeat;
 }
-/*.car-11 {*/
-  /*background: url("../pics/car11.jpg") no-repeat;*/
-/*}*/
-.car-12 {
+.car-11 {
   background: url("../pics/car12.jpg") no-repeat;
 }
-.car-13 {
+.car-12 {
   background: url("../pics/car13.jpg") no-repeat;
 }
 .wall {
   background: url("../pics/wall.jpg") no-repeat;
 }
-.contain {
-  background-position: center;
-  background-size: cover;
+
+
+
+.contain, img {
+  background-position: center; !important;
+  background-size: cover;   !important;
 }
 /*borders 'n' sizes*/
 
@@ -223,4 +235,16 @@ h5.bold {
   background: url("../pics/logo.png") no-repeat;
   background-size: contain;
 }
-
+@media only screen and (max-width : 992px) {
+  .mar-top {  margin-top: 13.688em;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 605px) {
+   div.bg.about-3,
+   div.bg.about-2 {
+     margin-top: 34px;
+   }
+   nav {
+     height: 150px !important;
+   }
+ }

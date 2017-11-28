@@ -36,6 +36,15 @@ sr.reveal('.rev-d', {
     viewFactor: 0.5,
     mobile: false
 });
+sr.reveal('.rev-g', {
+    duration: 1800,
+    origin: 'top',
+    distance: '50px',
+    scale: 0.1,
+    reset: true,
+    viewFactor: 0.5,
+    mobile: false
+});
 
 if (sr.isSupported()) {
     document.documentElement.classList.add('sr');
@@ -52,6 +61,5 @@ jQuery.noConflict();
   });
 
 })(jQuery);
-
 
 
